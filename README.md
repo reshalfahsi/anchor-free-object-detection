@@ -1,7 +1,7 @@
 # Anchor-Free Object Detection
 
 
-Anchor boxes have been the prevalent way to generate candidates for the ground truth bounding boxes in the object detection problem. Yet, this approach is such a hassle and downright confusing. This tutorial leverages an object detection method named [FastestDet](https://github.com/dog-qiuqiu/FastestDet) that is lightweight and anchor-free. PASCAL VOC 2007 and 2012 datasets are utilized to evaluate the model's capability. Here, the train and validation set of both datasets is used for the train, validation, and test set in this tutorial with a ratio of 81:9:10. Eventually, the inference set (the test set of PASCAL VOC 2007) is used to see the qualitative performance of the model.
+Anchor boxes have been the prevalent way to generate candidates for the ground truth bounding boxes in the object detection problem. Yet, this approach is such a hassle and downright confusing. This tutorial leverages an object detection method named [FastestDet](https://github.com/dog-qiuqiu/FastestDet) that is lightweight and anchor-free. ``PASCAL VOC 2007 and 2012`` datasets are utilized to evaluate the model's capability. Here, the train and validation set of both datasets is used for the train, validation, and test set in this tutorial with a ratio of ``81:9:10``. Eventually, the inference set (the test set of ``PASCAL VOC 2007``) is used to see the qualitative performance of the model.
 
 
 ## Experiment
@@ -44,3 +44,4 @@ The qualitative results of the model on the inference set are shown below.
 - [GluonCV: a Deep Learning Toolkit for Computer Vision](https://cv.gluon.ai/contents.html)
 - [Object Detection with RetinaNet](https://keras.io/examples/vision/retinanet/)
 - [PyTorch Lightning](https://lightning.ai/docs/pytorch/latest/)
+- [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)
