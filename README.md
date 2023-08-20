@@ -25,7 +25,7 @@ The table below presents the quantitative result of the model on the test set.
 Test metric | PASCAL VOC 2007 & 2012
 ------------ | -------------
 Loss |  2.774
-mAP@0.5:0.95 | 21.9%
+mAP@0.5:0.95 | 23.308%
 
 
 ## Loss Curve
@@ -37,7 +37,7 @@ mAP@0.5:0.95 | 21.9%
 
 The qualitative results of the model on the inference set are shown below.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> A car (left), a horse (middle), a person and a motorbike (right) are detected. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> A car (left), three sheep (middle), a person and a bicycle (right) are detected. </p>
 
 
 ## Credit
