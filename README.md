@@ -22,7 +22,7 @@ Explore [here](https://github.com/reshalfahsi/anchor-free-object-detection/blob/
 
 The table below presents the quantitative result of the model on the test set.
 
-Test metric | PASCAL VOC 2007 & 2012
+Test metric | PASCAL VOC 2012
 ------------ | -------------
 Loss |  2.331
 mAP@0.5:0.95 | 25.560%
