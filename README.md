@@ -37,7 +37,7 @@ mAP@0.5:0.95 | 25.560%
 
 The qualitative results of the model on the inference set are shown below.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> A person, a motorbike (left), a bird (middle), and two TV monitors (right) are detected. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> A person, a motorbike (left), a bird (middle), and two monitors (right) are detected. </p>
 
 
 ## Credit
