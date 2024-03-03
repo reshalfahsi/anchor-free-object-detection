@@ -7,7 +7,7 @@
  </div>
 
 
-Anchor boxes have been the prevalent way to generate candidates for the ground truth bounding boxes in the object detection problem. Yet, this approach is such a hassle and downright confusing. This tutorial leverages an object detection method named [FastestDet](https://github.com/dog-qiuqiu/FastestDet) that is lightweight and anchor-free. ``PASCAL VOC 2007 and 2012`` datasets are utilized to evaluate the model's capability. Here, the train and validation sets of ``PASCAL VOC 2012`` are used for the train, validation, and test set in this tutorial with a ratio of ``81:9:10``. Eventually, the inference set (the test set of ``PASCAL VOC 2007``) is used to see the qualitative performance of the model.
+Anchor boxes have been the prevalent way to generate candidates for the ground truth bounding boxes in the object detection problem. Yet, this approach is such a hassle and downright confusing. This tutorial leverages an object detection method named [FastestDet](https://github.com/dog-qiuqiu/FastestDet) that is lightweight and anchor-free. ``PASCAL VOC 2007 and 2012`` datasets are utilized to evaluate the model's capability. Here, the train and validation sets of ``PASCAL VOC 2012`` are used for the train and validation while the test set of ``PASCAL VOC 2007`` is allotted in the testing phase in this tutorial. Eventually, the inference set (the test set of ``PASCAL VOC 2007``) is used to see the qualitative performance of the model.
 
 
 ## Experiment
@@ -22,10 +22,10 @@ Explore [here](https://github.com/reshalfahsi/anchor-free-object-detection/blob/
 
 The table below presents the quantitative result of the model on the test set.
 
-Test metric | PASCAL VOC 2012
+Test metric | PASCAL VOC 2007
 ------------ | -------------
-Loss |  2.331
-mAP@0.5:0.95 | 25.560%
+Loss |  3.058
+mAP@0.5:0.95 | 15.307%
 
 
 ## Loss Curve
@@ -37,7 +37,7 @@ mAP@0.5:0.95 | 25.560%
 
 The qualitative results of the model on the inference set are shown below.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> A person, a motorbike (left), a bird (middle), and two monitors (right) are detected. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/anchor-free-object-detection/blob/master/assets/qualitative_result.png" alt="qualitative_result" > <br /> Two motorbikes (left), a person and a horse (middle), and a car and an aeroplane (right) are detected. </p>
 
 
 ## Credit
